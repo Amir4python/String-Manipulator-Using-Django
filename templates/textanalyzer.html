@@ -1,0 +1,102 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+   ul{
+    list-style: none;
+    padding: 1rem;
+    max-width: 50%;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .eachline *{
+    padding: 0.5rem;
+    color: rgb(28, 133, 194);
+    background-color: rgb(234, 224, 206);
+    text-align: center;
+    font-size: large;
+  }
+</style>
+<body>
+  <ul>
+    <li class="eachline"><pre><h3>Given Task: {{Task}}</h3></pre></li>
+    <li class="eachline"><pre>  <h3>orignal text: {{orignal_text}}</h3></pre></li>
+    <li class="eachline"><pre>   <h3>After Analyzed: {{analyzed_text}}</h3></pre></li>
+  </ul>
+  
+ 
+
+</body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <h1>Text Analyzer</h1>
+
+
+
+
+
+
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action text-bg-dark p-4" >
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Given Tasks</h5>
+           
+        </div>
+        <p class="mb-1">{{Task}}</p>
+         
+      </a>
+      <a href="#" class="list-group-item list-group-item-action text-bg-warning p-3">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Your Given Text</h5>
+          
+        </div>
+        <p class="mb-1">{{orignal_text}}</p>
+    
+      </a>
+      <a href="#" class="list-group-item list-group-item-action text-bg-success p-3">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">After processing through Analyzer</h5>
+           
+        </div>
+        <p class="mb-1">{{analyzed_text}}</p>
+         
+      </a>
+      <a href="#" class="list-group-item list-group-item-action text-bg-danger p-3">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Couting of particular entity</h5>
+           
+        </div>
+        <p class="mb-1">{{output1}}</p>
+         
+      </a>
+      <a href="#" class="list-group-item list-group-item-action text-bg-danger p-3">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Translation </h5>
+           
+        </div>
+         
+        <p class="mb-1">{{output2}} with {{str1}}-->{{str2}} </p>
+         
+      </a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
